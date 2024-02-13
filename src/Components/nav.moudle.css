@@ -1,0 +1,136 @@
+.headerMain {
+    background: linear-gradient(217.38deg, #F7F1F1 0%, #F7F1F1 0.01%, #F7F1F1 30.81%, rgba(247, 241, 241, 0) 100%);
+}
+
+
+.navmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0;
+}
+.navlist li a{
+   list-style-type: none;
+   font-size: 1rem;
+   color: #000000;
+   text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+.navlist li{
+   list-style-type: none;
+}
+
+.otherlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactbutton {
+    background: linear-gradient(90deg, #BB6868 0%, #DD8738 100%);
+    padding: 10px 20px;
+    font-family: "Nunito";
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.activeSubmenu {
+    position: relative;
+    z-index: 10;
+}
+
+.submenu {
+    position: absolute;
+    top: 3.3rem;
+    background: #f3f3f3;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px ;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    transition: all .4s ease-in-out;
+    z-index: 999;
+}
+
+.submenuChildrens {
+    font-size: 1px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.submenuChildrens {
+    font-size: 1px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.Childrenlink {
+    color: #2c2c2c !important;
+    font-weight: "500";
+    font-size: 15px;
+    font-family: "Nunito";
+}
+.Childrenlink:hover {
+    color: #BB6868  !important;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.bannerImg {
+    width: 110%;
+}
+
+.bannerTxt h1 {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.bannerTxt h1 span{
+    color: #D71920;
+
+}
+
+.bannerTxt p {
+    font-family: "Nunito";
+    font-size: 1.1rem;
+    color: #454545;
+
+}
+
+.bannButton {
+    padding: 10px 15px;
+    background: linear-gradient(90deg, #BB6868 0%, #DD8738 100%);
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 25%;
+}
+
+.headerCol {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}

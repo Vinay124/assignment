@@ -1,0 +1,173 @@
+.clients {
+    width: 85%;
+    height: auto;
+}
+.customerEngIImg {
+    width: 100%;
+}
+
+.title {
+ 
+}
+
+.possTextWrapper h2{
+    font-weight: 600;
+    width: 60%;
+}
+.possTextWrapper p{
+    color: 111111;
+    margin-top: 1rem;
+}
+
+.possimg {
+    width:90%;
+}
+
+.posstitle h4{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.possSection  {
+    margin-top: 3rem;
+    padding: 5rem;
+    background: #F7F2F1;
+}
+
+.txtbold {
+    color: #D71920;
+}
+
+.personalised {
+    padding: 10px 20px;
+    background-color: #FDB913;
+    color: #000000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Loyalty {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #B9B9B9;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 16px;
+}
+
+/* .loyaltymanagment {
+
+} */
+
+.Engagementslider {
+    height: 60vh;
+    display: block;
+}
+
+.loyalityul {
+    margin: 0;
+    padding: 0;
+}
+
+.loyalityul li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin: 1rem 0;
+}
+
+.sliderWrapper {
+    position: relative;
+    z-index: 1;
+    margin: 1rem;
+}
+
+.macbookWall {
+    background: url('.././assets//macbook.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 66.5%;
+    height: 47%;
+}
+
+.slioderTxt {
+    position: absolute;
+    z-index: 1;
+    top: 8rem;
+    color: white;
+    right: 0;
+    width: 91%;
+}
+
+.slioderTxt h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.slioderTxt span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mainwrapper {
+    margin-top: 3rem;
+}
+
+.slidertextWrapper {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.accordion-item {
+    margin: 1.2rem;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+}
+.accordion-item:focus{
+    border: none;
+    outline: none;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    background: #F7F2F1;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.accordion-button:focus {
+    border: none;
+}
+
+button:focus:not(:focus-visible) {
+    border: none;
+    border-color: transparent;
+}
+
+
+
+.accordion-button:not(.collapsed)::after {
+    color: #F7F2F1;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #F7F2F1;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordianName {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: bold;
+}
