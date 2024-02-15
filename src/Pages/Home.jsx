@@ -7,12 +7,16 @@ import POS from '../Components/pos'
 import LoyaltyManagement from '../Components/LoyaltyManagement'
 import Engagementslider from '../Components/Engagementslider'
 import Faqs from '../Components/Faqs'
+import WeAreNotalone from '../Components/WeAreNotalone'
+import VideoBox from '../Components/VideoBox'
 
 const Home = () => {
   return (
     <>
     <Nav/>
     <ClientsList/>
+    {/* <VideoBox/> */}
+    <WeAreNotalone/>
     <CustomerEngagement/>
     <POS/>
     <LoyaltyManagement/>
