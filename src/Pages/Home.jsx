@@ -9,6 +9,9 @@ import Engagementslider from '../Components/Engagementslider'
 import Faqs from '../Components/Faqs'
 import WeAreNotalone from '../Components/WeAreNotalone'
 import VideoBox from '../Components/VideoBox'
+import Featured from '../Components/Featured'
+import InfoSlider from '../Components/InfoSlider'
+import Footer from '../Components/footer'
 
 const Home = () => {
   return (
@@ -22,7 +25,9 @@ const Home = () => {
     <LoyaltyManagement/>
     <Engagementslider/>
     <Faqs/>
-    <div>Home</div>
+    <InfoSlider/> 
+    <Featured/>
+    <Footer/>   
     </>
   )
 }

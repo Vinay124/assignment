@@ -71,6 +71,7 @@
 .Engagementslider {
     height: 60vh;
     display: block;
+    margin: 3rem 0;
 }
 
 .loyalityul {
@@ -97,9 +98,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 66.5%;
-    height: 47%;
+    width: 79%;
+    height: 60%;
 }
+
 
 .slioderTxt {
     position: absolute;
@@ -220,6 +222,7 @@ button:focus:not(:focus-visible) {
 
 .videoSubWrapper {
     position: relative;
+    margin-bottom: 10rem;
 }
 
 .video-wrapper {
@@ -238,8 +241,15 @@ button:focus:not(:focus-visible) {
 }
 
 .videoMainWrapper {
+
     background: #F7F2F1;
     position: absolute;
+    display: flex;
+    height: 73%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    top: 21rem;
+    z-index: -1;
 }
 
 
@@ -278,4 +288,270 @@ button:focus:not(:focus-visible) {
     margin: 0 auto;
     color: #454545;
 
+}
+
+.leftSliderWrapper {
+    background: url('../assets/leftimg.png');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+    padding: 0rem 4rem;
+    align-items: center;
+}
+
+.infosliderMain {
+    margin: 5rem 2rem;
+}
+
+.textDetails p{
+    font-size: 20px;
+    padding-top: 2rem;
+    line-height: 1.3;
+}
+.viewAll {
+    padding: 10px 15px;
+    background: linear-gradient(90deg, #BB6868 0%, #DD8738 100%);
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.siderCards {
+    padding: 1rem;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    margin: 1rem;
+    height: 77vh;
+    border-radius: 10px;
+}
+
+.slidericonWrapper h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;
+}
+.productSlider > div  p{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: #000000;
+
+}
+
+.productSlider {
+    padding: 2rem 0;
+}
+
+.knowMore {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 18px;
+
+}
+
+.featuredmain {
+    padding: 3rem 0;
+    margin: 10px;
+    background: #F7F2F1;
+
+}
+
+.featuresWrapper {
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.featuresWrapper > div img {
+    width: 100%;
+}
+
+.featurescards {
+    padding: 1rem 1rem;
+}
+
+.shareBtn {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #BB6868 0%, #DD8738 100%);
+}
+
+.footerul {
+    list-style-type: none;
+    padding: 0;
+}
+.footerul li img {
+    width: 60px;
+}
+
+.FormArea {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.textAreaMessage {
+    width: 103%;
+    margin-top: 2rem;
+    resize: none;
+    border: 1px solid #D27D47;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: #454545;
+    height: 8rem;
+}
+
+.footerTxt {
+    font-size: 2rem;
+}
+
+.formMainWrapper {
+    padding: 2rem;
+}
+
+.getinTouch {
+    position: relative;
+    margin-top: 4rem;
+}
+
+.getintouchMainDiv {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 8rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.forminput {
+    padding: 10px;
+    /* border:1px solid  linear-gradient(0deg, #D27D47, #D27D47); */
+    border-radius: 10px;
+    border: 1px solid #D27D47;
+    cursor: pointer;
+    outline: none;
+    color: #454545;
+}
+
+.forminput:focus{
+    color: #DD8738;
+}
+
+.btn-submit {
+    background: linear-gradient(90deg, #BB6868 0%, #DD8738 100%);
+    border: 1px solid transparent;
+    color: white;
+    font-family: "Nunito";
+    outline: none;
+    padding: 8px 10px;
+    width: 103%;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+
+.footermain {
+    background: #E48E29;
+    position: absolute;
+    background: #E48E29;
+    position: absolute;
+    top: 27rem;
+    /* height: 76vh; */
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+.btn-subscribe {
+    padding: 7px 30px;
+    color: #000000;
+    font-family: 'Nunito';
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.newletterEmial {
+    padding: 8px 10px;
+    color: #B9B9B9;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.followUSul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.followUsWrapper  {
+    color: white;
+   margin: 1rem 0;
+}
+
+.subscribeSpan {
+    color: white;
+}
+.footerSocialIcons{
+   width: 60px;
+}
+
+.footerLinks span {
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.footerLinks ul{
+    list-style-type: none;
+    padding: 0;
+    color: #ffffffba;
+    line-height: 1.9;
+    margin-top: 0.8rem;
+    font-weight:400;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.footerLinks ul li:hover {
+    color: #ffffff;
+    transition: al .3s ease;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    border-top: 1px solid #ffffffa7;
+    padding: 1rem;
+    font-size: 13px;
 }

@@ -13,7 +13,7 @@ const Engagementslider = () => {
     const options = {
         loop: true,
         center: true,
-        items: 3,
+        items: 2,
         margin: 5,
         autoplay: true,
         dots: false,
