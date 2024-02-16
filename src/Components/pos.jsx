@@ -36,11 +36,11 @@ const pos = () => {
             </div>
         </div>
         
-            <Row className='pt-5'>
-                <Col className='col-lg-6'>
+            <Row className='pt-5 posWrapper'>
+                <Col className='col-lg-6 col-md-4'>
                     <img src={POSSimg} alt="" className='possimg' />
                 </Col>
-                <Col className='col-lg-6'>
+                <Col className='col-lg-6 col-md-12 col-sm-12'>
                     <div className='possDescription'>
                     {bestseller.bestSellerCollections.data.map(item => (
                         <div>

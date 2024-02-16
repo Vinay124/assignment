@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .headerMain .navmain {
+        display: none;
+    }
+  }
+
+
+  
+  /* Example for small screens */
+  @media screen and (max-width: 480px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .column {
+      margin: 5px;
+    }
+  }

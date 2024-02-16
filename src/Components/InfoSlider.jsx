@@ -12,12 +12,13 @@ import I1 from '../assets/i1.png'
 import I2 from '../assets/i2.png'
 import I3 from '../assets/i3.png'
 import I4 from '../assets/i4.png'
+import { MdKeyboardArrowLeft } from "react-icons/md";
+import { MdKeyboardArrowRight } from "react-icons/md";
+
 
 const InfoSlider = () => {
 
-    const restorent = {
-        "sliderData": {
-          "data": [
+    const restorent = [
             {
               "id": 1,
               "icon":I1,
@@ -46,9 +47,7 @@ const InfoSlider = () => {
               "productImage": Slider4,
               "descripton": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt urna nec ligula. Lorem ipsum dolor sit",
             },
-          ]
-        }
-      };
+          ];
 
       const [selectedItem, setSelectedItem] = useState(0);
 
@@ -56,6 +55,28 @@ const InfoSlider = () => {
         setSelectedItem(event.item.index);
     };
 
+    const options = {
+      items: 3,
+      loop: true,
+      nav: true,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1024:{
+          items:2,
+        },
+        1025:{
+            items:3
+        }},
+        navText: ["Prev", "Next"],
+    }
 
   
   return (
@@ -64,30 +85,21 @@ const InfoSlider = () => {
             <Row>
                 <Col className='col-lg-4'>
                     <div className='leftSliderWrapper'>
-                    {restorent.sliderData.data[selectedItem] && (
+                    {restorent[selectedItem] && (
                     <div className='textDetails'>
-                        <h1>{restorent.sliderData.data[selectedItem].title}</h1>
-                        <p>{restorent.sliderData.data[selectedItem].descripton}</p>
+                        <h1>{restorent[selectedItem].title}</h1>
+                        <p>{restorent[selectedItem].descripton}</p>
                         <button className='viewAll'>View All</button>
                     </div>
               )}
                     </div>
                 </Col>
                 <Col className='col-lg-8'>
-                <OwlCarousel
-                options={{
-                    items: 3,
-                    loop: true,
-                    nav: true,
-                    dots: true,
-                    autoplay: true,
-                    autoplayTimeout: 5000,
-                }}
+                <OwlCarousel {...options}
               onChange={handleSlideChange}
             >
-              {restorent.sliderData.data.map((item) => (
+              {restorent.map((item) => (
 
-              
                 <div key={item.id} className='siderCards'>
                   <div>
                     <img src={item.productImage} alt='' />

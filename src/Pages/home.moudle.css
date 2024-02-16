@@ -1,3 +1,4 @@
+
 .clients {
     width: 85%;
     height: auto;
@@ -6,9 +7,7 @@
     width: 100%;
 }
 
-.title {
- 
-}
+
 
 .possTextWrapper h2{
     font-weight: 600;
@@ -301,6 +300,11 @@ button:focus:not(:focus-visible) {
     margin: 0 auto;
     padding: 0rem 4rem;
     align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .infosliderMain {
@@ -332,7 +336,7 @@ button:focus:not(:focus-visible) {
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     margin: 1rem;
-    height: 77vh;
+    height: 60vh;
     border-radius: 10px;
 }
 
@@ -345,7 +349,7 @@ button:focus:not(:focus-visible) {
     text-transform: capitalize;
     font-weight: 600;
     margin-top: 1rem;
-    font-size: 10px;
+    font-size: 16px;
     color: #000000;
 
 }
@@ -555,3 +559,34 @@ button:focus:not(:focus-visible) {
     padding: 1rem;
     font-size: 13px;
 }
+
+
+/* @media screen and (max-width: 1200px) {
+    body {
+      font-size: 14px;
+    }
+  } */
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .headerMain .navmain {
+        display: none;
+    }
+    .loyalityManagmentRow .Loyalty ,
+    .loyalityManagmentRow .personalised {
+        font-size: 13px;
+    }
+   
+  }
+
+
+  
+  /* Example for small screens
+  @media screen and (max-width: 480px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .column {
+      margin: 5px;
+    }
+  } */

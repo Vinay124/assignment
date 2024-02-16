@@ -8,8 +8,8 @@ const LoyaltyManagement = () => {
     <section>
         <Container>
             
-            <Row>
-                <Col className='col-lg-8 d-flex align-items-center'>
+            <Row className='loyalityManagmentRow'>
+                <Col className='col-lg-8 col-md-6 d-flex align-items-center'>
                     <div className='d-flex flex-column '>
                     <div className='mt-5'>
                 <div className='loyalmanage'>
@@ -39,7 +39,7 @@ const LoyaltyManagement = () => {
                     </div>
                     </div>
                 </Col>
-                <Col className='col-lg-4'>
+                <Col className='col-lg-4 col-md-6 '>
                     <img src={Lady} alt="" style={{width:'132%'}}/>
                 </Col>
             </Row>
