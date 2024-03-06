@@ -233,6 +233,7 @@
   }
   .whiteLogo {
     width: 100px;
+    display: block;
   }
 }
 

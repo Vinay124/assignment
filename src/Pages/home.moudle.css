@@ -339,6 +339,9 @@ button:focus:not(:focus-visible) {
     height: 65vh;
     border-radius: 10px;
 }
+.possTextWrapper h2 {
+    width: auto;
+}
 
 .slidericonWrapper h4{
     text-transform: capitalize;
