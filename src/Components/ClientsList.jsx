@@ -53,7 +53,7 @@ const ClientsList = () => {
     <div >
         <h1>We are not alone</h1>
 
-        <div className="d-flex justify-content-evenly mt-5">
+        <div className="d-flex justify-content-evenly mt-5 clientsNames">
         {bestSeller.bestSellerCollections.data.map(data => (
           <div >
                 <img src={data.productImage} alt='custome' className='clients'/>

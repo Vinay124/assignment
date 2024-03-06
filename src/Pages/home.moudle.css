@@ -174,8 +174,8 @@ button:focus:not(:focus-visible) {
 }
 
 .wearenotaloneWrapper {
-    padding: 20px 10px;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 33px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
     height: 8rem;
     margin: 10px;
     border-radius: 10px;

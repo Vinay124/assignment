@@ -134,3 +134,239 @@
     flex-direction: column;
     margin: 1rem 0;
 }
+
+
+.toggleWrapper  .btn-menutoggle{
+    display: none; 
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.searchlinks {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 1199px) { 
+    .toggleWrapper .btn-menutoggle{ 
+        display: block;
+    }
+    .navmain {
+        flex-direction: column;
+        position: absolute;
+        padding: 1rem;
+        justify-content: space-between !important;
+        height: 57vh;
+    }
+    .navlist {
+        flex-direction: column;
+        margin: 0;
+        padding:0;
+        height: 26vh;
+    }
+    .otherlinks {
+        flex-direction: column;
+    }
+    .navListDiv {
+        position: absolute;
+        top: 5.5rem;
+        left: 1rem;
+    }
+    
+    .navlist li a {
+        color: #fff;
+    }
+   
+    .navMenu.open {
+        display: block;
+        position: fixed;
+        background:linear-gradient(137.61deg, rgb(0 0 0 / 87%) 28.63%, rgba(0, 0, 0, 0.517) 85.37%);
+        width: 100%;
+        height: 200vh;
+        top: 3.5rem;
+        z-index: 20;
+        transform: translate3d(0,0,0) rotate(0deg);
+        
+    }
+  
+    .navMenu.close {
+        display: none;
+    }
+
+    .toggleWrapper {
+        position: fixed;
+        float: right;
+        background: linear-gradient(90deg, #BB6868 0%, #DD8738 100%);
+
+        width: 100%;
+        z-index: 20;
+    }
+    .btn-menutoggle {
+        padding: 1rem;
+        background: red;
+        width: auto;
+    }
+    
+
+    .nav-container {
+        padding: 0;
+        margin: 0;
+    }
+    .searchlinks > div svg {
+        color: rgb(212, 212, 212) !important;
+    }
+    .contactbutton {
+        margin: 2rem 0;
+    }
+
+    .bannerImg {
+        width: 100%;
+    }
+
+    .bannerWrapper {
+        flex-direction: column-reverse;
+        padding-top: 4rem;
+    }
+    .bannButton {
+        width: 100%;
+    }
+    .clientsNames {
+        flex-direction: column;
+    }
+    .clientsNames > div {
+        margin-bottom: 2rem;
+    }
+    .clientsNames > div img{
+        width: 40%;
+    }
+    .video-wrapper {
+        width: 100%;
+        height: 25vh;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .videoSubWrapper {
+        margin-bottom: auto;
+    }
+    .videoDescripion p{
+        width: 100%;
+    }
+    .videoDescripion {
+        margin: 0;
+        padding: 0;
+    }
+    .videoMainWrapper {
+        position: unset;
+    }
+    .weAreNotAloneSecton .row > div {
+        margin: 10px;
+    }
+    .wearenotaloneWrapper {
+        padding: 10px 2px;
+        margin: 0;
+    }   
+    .weAreNotAloneTxt{
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .contentWrapper {
+        width: 100%;
+    }
+    .contentWrapper > div {
+        width: 120%;
+    }
+    .customerEngagement {
+        flex-direction: column;
+    }
+     .bannButton {
+        width: 100% !important;
+    }
+    .possSection {
+        padding: 0;
+    }
+    .posWrapper  {
+        flex-direction: column;
+    }
+    .loyalityManagmentRow  {
+        flex-direction: column;
+    }
+    .ladyIMageBanner {
+        width: 100% !important;
+    }
+    .Loyalty {
+        margin: 1rem 0;
+    }
+    .accordion-body{
+        font-size: 13px;
+    }
+    .newsBlogWrapper {
+        flex-direction: column;
+    }
+    .leftSliderWrapper  {
+        padding: 0 1rem;
+    }
+    .infosliderMain  {
+        margin:3rem 1rem;
+    }
+    .accordion-item {
+        margin: 10px;
+    }
+    .accordianName{
+        font-size: 13px;
+    }
+    /* form */
+    .FormArea{
+        grid-template-columns: repeat(1, 0fr);
+        grid-gap: 1.3rem;
+    }
+    .getintouchMainDiv{
+        padding: 1rem;
+        width: 94%;
+        left: 10px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .formMainWrapper {
+        padding: 0;
+    }
+
+    .footermain{
+        top: 55rem;
+    }
+    .footerRows {
+        flex-direction: column;
+    }
+    .inputWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-subscribe{
+        margin:1rem 0;
+    }
+    .footerBottom {
+        flex-direction: column;
+    }
+
+
+    /*  */
+    .macbookWall {
+        width: 123%;
+        left: -2rem;
+    }
+    .slioderTxt {
+        top: 3rem;
+        width: 93%;
+    }
+    .slioderTxt span{
+        font-size: 0.8rem;
+    }
+    .sliderWrapper {
+        margin: 0 3rem;
+    }
+}

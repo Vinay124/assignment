@@ -29,7 +29,7 @@ const Featured = () => {
   return (
     <section className='featuredmain'>
         <Container>
-            <Row>
+            <Row className='featuresRow'>
                 <Col  className="col-lg-4 d-flex align-items-center">
                     <div className='featured'>
                         <h2>We are featured in</h2>
@@ -37,7 +37,7 @@ const Featured = () => {
                     </div>
                 </Col>
                 <Col className="col-lg-6 ">
-                    <div className='d-flex '>
+                    <div className='d-flex newsBlogWrapper'>
                         {restorent.sliderData.data.map((item) =>  (
                             <div className='featuresWrapper'>
                                 <div>

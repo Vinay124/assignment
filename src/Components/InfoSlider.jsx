@@ -58,7 +58,7 @@ const InfoSlider = () => {
     const options = {
       items: 3,
       loop: true,
-      nav: true,
+      nav: false,
       dots: false,
       autoplay: true,
       autoplayTimeout: 5000,
@@ -67,7 +67,7 @@ const InfoSlider = () => {
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1024:{
           items:2,

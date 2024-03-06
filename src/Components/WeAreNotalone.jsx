@@ -39,16 +39,16 @@ const WeAreNotalone = () => {
             <div className='wearenotAloneTxt'>
                 <h3>We are not alone</h3>
             </div>
-            <Row className='mt-5'>
+            <Row className='mt-5 wearenotAlonSession'>
                 {bestseller.bestSellerCollections.data.map(item => (
-                    <Col className='col-lg-4'>
+                    <Col className='col-lg-4 col-sm-12'>
                         <Row className='wearenotaloneWrapper'>
-                            <Col className='col-lg-2'>
+                            <Col className='col-lg-2 col-sm-3'>
                                 <div>
                                     <img src={item.productImage} alt=''/>
                                 </div>
                             </Col>
-                            <Col className='col-lg-10'>
+                            <Col className='col-lg-10 col-sm-9 contentWrapper'>
                             <div>
                                 <div >
                                     <h5 className='mx-3 weAreNotAloneHeadding'>{item.title}</h5>

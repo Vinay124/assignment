@@ -8,6 +8,8 @@ import { IoSearch } from "react-icons/io5";
 import { FaUser } from 'react-icons/fa';
 import banner from '../assets/bann.png';
 import { Col, Container, Row } from 'react-bootstrap';
+import './nav.moudle.css'
+import { HiOutlineMenuAlt2 } from "react-icons/hi";
 
 const Header = () => {
 
@@ -29,32 +31,38 @@ const Header = () => {
 
   const navigate = useNavigate();
 
-  // Logout funtionlity
-  const handlelogout = () => {
-    localStorage.clear();
-    navigate('/')
-  }
 
   const userInformation = localStorage.getItem('Userinfo');
   const useResponse = JSON.parse(userInformation)
 
-  // console.log(userInformation)
 
   const Styles = {
     textTransform: 'capitalize'
   }
 
+
+  const [isMenu, setIsMenu] = useState(false);
+
+  const togglebutton = () => {
+    setIsMenu(!isMenu);
+  };
+
   return (
     <>
     <header className='headerMain'>
-      <Container>
+      <div className='container nav-container'>
+          <div className='toggleWrapper'>
+            <button className='btn-menutoggle' onClick={togglebutton}><HiOutlineMenuAlt2 size={25} color='white'/></button>
+          </div>
+          <div className={`navMenu ${isMenu ? 'open' : 'close'}`}>
+  
         <div className='navmain'>
             <div>
               <div>
                 <img src={Logo} alt="Logo" />
               </div>
             </div>
-            <div>
+            <div className='navListDiv'>
               <ul className='navlist'>
               {NavigactionData.map((menuItem, i) => {
                     return(
@@ -76,7 +84,7 @@ const Header = () => {
               </ul>
             </div>
             <div className='otherlinks'>
-              <div className='d-flex align-items-center justify-content-between'>
+              <div className='searchlinks'>
                 <div >
                   <IoSearch size={20} color='111111'/>
                 </div>
@@ -89,10 +97,11 @@ const Header = () => {
               </div>
             </div>
       </div>
-
+      </div>
+      </div>
+      <Container>
       <div>
-      {/* <Container> */}
-        <Row className='mb-5 pb-5'>
+        <Row className='mb-5 pb-5 bannerWrapper'>
           <Col className="Col-lg-6  d-flex align-items-center">
             <div className='d-flex flex-column'>
               <div className='bannerTxt'>

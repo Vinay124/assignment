@@ -40,7 +40,7 @@ const LoyaltyManagement = () => {
                     </div>
                 </Col>
                 <Col className='col-lg-4 col-md-6 '>
-                    <img src={Lady} alt="" style={{width:'132%'}}/>
+                    <img src={Lady} alt="" className='ladyIMageBanner' style={{width:'132%'}}/>
                 </Col>
             </Row>
         </Container>

@@ -57,7 +57,7 @@ const CustomerEngagement = () => {
             </div>
             <div>
             {bestseller.bestSellerCollections.data.map(item => (
-                <Row className='d-flex align-items-center mt-5'>
+                <Row className='d-flex align-items-center mt-5 customerEngagement'>
                 <Col className='col-lg-4'>
                     <div>
                         <img src={item.productImage} alt="" className='customerEngIImg'/>

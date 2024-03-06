@@ -83,8 +83,10 @@ const GetinTouch = () => {
                   <div > 
                     <span className='subscribeSpan'>Subscribe to Newsletter</span>
                     <div className='d-flex mt-3'>
+                      <div className='inputWrapper'>
                       <input type='email' className='newletterEmial' placeholder='Email id'/>
-                      <button type='submit' className='btn-subscribe'>Button</button>
+                      <button type='submit' className='btn-subscribe'>Submit</button>
+                      </div>
                     </div>
                   </div>
                   <div className='followUsWrapper'>
