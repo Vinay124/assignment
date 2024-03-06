@@ -495,6 +495,7 @@ button:focus:not(:focus-visible) {
 .btn-subscribe {
     padding: 7px 30px;
     color: #000000;
+    background: #fff;
     font-family: 'Nunito';
     border: none;
     outline: none;
