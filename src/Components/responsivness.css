@@ -214,7 +214,7 @@
 
   /*  */
   .macbookWall {
-      width: 123%;
+      width: 120%;
       left: -2rem;
   }
   .slioderTxt {
@@ -226,6 +226,13 @@
   }
   .sliderWrapper {
       margin: 0 3rem;
+  }
+  .toggleMenuwrapper {
+    display: flex;
+    align-items: center;
+  }
+  .whiteLogo {
+    width: 100px;
   }
 }
 

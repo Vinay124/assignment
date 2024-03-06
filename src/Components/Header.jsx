@@ -10,6 +10,7 @@ import banner from '../assets/bann.png';
 import { Col, Container, Row } from 'react-bootstrap';
 import './nav.moudle.css'
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
+import WhiteLogo from '../assets/white-logo.png'
 
 const Header = () => {
 
@@ -52,7 +53,10 @@ const Header = () => {
     <header className='headerMain'>
       <div className='container nav-container'>
           <div className='toggleWrapper'>
-            <button className='btn-menutoggle' onClick={togglebutton}><HiOutlineMenuAlt2 size={25} color='white'/></button>
+            <div className='toggleMenuwrapper'>
+              <button className='btn-menutoggle' onClick={togglebutton}><HiOutlineMenuAlt2 size={25} color='white'/></button>
+              <img src={WhiteLogo} className='whiteLogo'/>
+            </div>
           </div>
           <div className={`navMenu ${isMenu ? 'open' : 'close'}`}>
   
